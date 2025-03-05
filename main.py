@@ -9,7 +9,8 @@ from tensorflow.keras.utils import to_categorical
 GRID_SIZE = 16
 CELL_SIZE = 20  # pixels
 
-
+for i in range(1000000):
+    print(i)
 
 class DigitRecognizerApp:
     def __init__(self, master):
