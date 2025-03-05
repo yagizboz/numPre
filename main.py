@@ -10,7 +10,7 @@ GRID_SIZE = 16
 CELL_SIZE = 20  # pixels
 
 for i in range(1000000):
-    print(i)
+    print(i):
 
 class DigitRecognizerApp:
     def __init__(self, master):
